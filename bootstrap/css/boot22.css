@@ -1,0 +1,62 @@
+@import url("bootstrap.min.css");
+body {
+  background: #272a31;
+  color: #eef0ff;
+}
+.container-fluid {
+  background: #272a31;
+  border-bottom: none;
+}
+.container-fluid li:hover {
+  background: #ccc;
+}
+.container-fluid li img {
+  margin-right: 10px;
+}
+.a {
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.main {
+  margin: 60px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  color: #fff;
+  background-color: #31393c;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #555;
+  cursor: default;
+  background-color: #3e424b;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #555;
+  background-color: #3e424b;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #000;
+}
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #000;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #000;
+}
